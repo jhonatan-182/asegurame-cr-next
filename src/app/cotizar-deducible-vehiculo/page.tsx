@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Asegurame | Cotiza y compra tu seguro en línea",
+  title: "Asegurame | Deducible Automóvil",
   description:
-    "Descubre las diferentes opciones de seguros que puedes cotizar y comprar. Seguro de Viaje, Seguro de Deducible Automóvil y Seguro de Autoexpedible Enfermedades Graves.",
+    "Si ya cuentas con un seguro de vehículo, este seguro te ofrece un control de costos en caso de accidentes. Descubre los beneficios, condiciones y aclara tus dudas de seguros de deducible de vehículos.",
   keywords: [
     "asegurame",
     "seguros",
@@ -13,9 +13,8 @@ export const metadata: Metadata = {
     "seguros online",
     "aseguradoras en costa rica",
     "seguros costa rica",
-    "seguro de viaje",
-    "seguro deducible automovil",
-    "seguro enfermedades graves",
+    "seguro deducible de auto",
+    "deducible automóvil",
     "ins",
     "instituto nacional de seguros",
     "uniserse",
@@ -23,10 +22,10 @@ export const metadata: Metadata = {
   ],
 };
 
-export default function CotizarPage() {
+export default function CotizarDeducibleVehiculoPage() {
   return (
     <div>
-      <h1>CotizarPage</h1>
+      <h1>CotizarDeducibleVehiculoPage</h1>
     </div>
   );
 }
