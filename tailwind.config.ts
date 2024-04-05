@@ -28,6 +28,9 @@ const config: Config = {
         alerta_warning: "#EDA93B",
         borde_asegurame: "#DDDDDD",
       },
+      boxShadow: {
+        general: "1px 1px 20px rgba(229, 235, 239, 1)",
+      },
     },
   },
   plugins: [],
