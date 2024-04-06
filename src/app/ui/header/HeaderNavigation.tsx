@@ -1,3 +1,4 @@
+import { SelectCustom } from "../share/atoms";
 import LinkNavigation from "./LinkNavigation";
 
 const links = [
@@ -15,11 +16,17 @@ const links = [
 export default function HeaderNavigation() {
   return (
     <nav className="flex justify-between items-center gap-4 text-[15px]">
-      <p className="cursor-pointer">Seguros</p>
+      <div className="hidden lg:block">
+        <p className="cursor-pointer">Seguros</p>
 
-      {links.map((link) => (
-        <LinkNavigation key={link.url} {...link} />
-      ))}
+        {links.map((link) => (
+          <LinkNavigation key={link.url} {...link} />
+        ))}
+
+        <SelectCustom />
+      </div>
+
+      <div className="lg:hidden">Menu</div>
     </nav>
   );
 }

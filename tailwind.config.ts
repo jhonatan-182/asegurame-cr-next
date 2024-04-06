@@ -13,7 +13,6 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-
       colors: {
         primary: "#003763",
         primary_2: "#0099b7",
@@ -30,6 +29,33 @@ const config: Config = {
       },
       boxShadow: {
         general: "1px 1px 20px rgba(229, 235, 239, 1)",
+      },
+      fontSize: {
+        h1: "50px",
+        h2: "35px",
+        h3: "30px",
+        h4: "25px",
+        h5: "20px",
+        btn: "16px",
+        body_1: "16px",
+        body_2: "14px",
+        h1_movil: "23px",
+        h2_movil: "20px",
+        h3_movil: "16px",
+        btn_movil: "14px",
+        body_movil: "14px",
+        tablas: "14px",
+      },
+      screens: {
+        xs_2: "375px",
+        xs: "425px",
+      },
+
+      borderRadius: {
+        xl: "20px",
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },

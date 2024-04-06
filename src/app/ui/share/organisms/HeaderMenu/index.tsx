@@ -8,7 +8,7 @@ export default function HeaderMenu() {
       <div className="w-[85%] mx-auto flex justify-between items-center h-16">
         <Link href={"/"}>
           <Image
-            src={"/AsegurameLogo.svg"}
+            src={"/images/AsegurameLogo.svg"}
             width={170}
             height={50}
             alt="Logo Asegurame"
