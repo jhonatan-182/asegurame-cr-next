@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
 import { ThemeProvider } from "@mui/material/styles";
+import { StyledEngineProvider } from "@mui/material/styles";
 import { HeaderMenu } from "./ui/share/organisms";
 import "./globals.css";
 import { theme } from "@/theme";
@@ -43,7 +44,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={`${poppins.className} bg-white min-h-screen`}>
-        <AppRouterCacheProvider>
+        <AppRouterCacheProvider options={{ enableCssLayer: true }}>
           <ThemeProvider theme={theme}>
             <HeaderMenu />
             <div className="w-[95%] md:w-[75%] mx-auto">{children}</div>

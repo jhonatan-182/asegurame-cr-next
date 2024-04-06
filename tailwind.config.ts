@@ -39,7 +39,8 @@ const config: Config = {
         btn: "16px",
         body_1: "16px",
         body_2: "14px",
-        h1_movil: "23px",
+        h1_movil_xs: "23px",
+        h1_movil: "25px",
         h2_movil: "20px",
         h3_movil: "16px",
         btn_movil: "14px",
@@ -53,9 +54,6 @@ const config: Config = {
 
       borderRadius: {
         xl: "20px",
-      },
-      fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
       },
     },
   },
