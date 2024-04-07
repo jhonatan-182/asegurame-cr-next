@@ -12,18 +12,11 @@ export const theme: Theme = createTheme({
   components: {
     MuiTypography: {
       styleOverrides: {
-        // root: {
-        //   margin: "400px",
-        // },
+        root: {
+          fontFamily: poppins.style.fontFamily,
+          fontWeight: poppins.style.fontWeight,
+        },
       },
-    },
-  },
-
-  typography: {
-    fontFamily: poppins.style.fontFamily,
-    allVariants: {
-      fontWeight: poppins.style.fontWeight,
-      textTransform: "none",
     },
   },
 });
