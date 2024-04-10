@@ -1,5 +1,5 @@
+import HeaderNavigation from "@/ui/header/HeaderNavigation";
 import Image from "next/image";
-import HeaderNavigation from "@/app/ui/header/HeaderNavigation";
 import Link from "next/link";
 
 export default function HeaderMenu() {

@@ -1,17 +1,9 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
-
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
 import { ThemeProvider } from "@mui/material/styles";
-import { StyledEngineProvider } from "@mui/material/styles";
-import { HeaderMenu } from "./ui/share/organisms";
-import "./globals.css";
 import { theme } from "@/theme";
-
-export const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["200", "400", "500", "600", "700", "800", "900"],
-});
+import { HeaderMenu } from "@/ui/share/organisms";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Asegurame | Cotiza y compra tu seguro en línea",
@@ -43,7 +35,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={`${poppins.className} bg-white min-h-screen`}>
+      <body className={`bg-white min-h-screen`}>
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
           <ThemeProvider theme={theme}>
             <HeaderMenu />

@@ -1,7 +1,7 @@
+import ComoFunciona from "@/ui/home/ComoFunciona";
+import Seguros from "@/ui/home/Seguros";
+import { TextCustom } from "@/ui/share/atoms";
 import Image from "next/image";
-import Seguros from "./ui/home/Seguros";
-import { TextCustom } from "./ui/share/atoms";
-import ComoFunciona from "./ui/home/ComoFunciona";
 
 export default function Home() {
   return (
