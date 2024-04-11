@@ -1,3 +1,5 @@
+import { TextCustom } from "../share/atoms";
+
 //consultar desde la base de datos
 const seguros = [
   {
@@ -31,12 +33,18 @@ export default function Seguros() {
             </div>
           </div>
 
-          <p className="text-[10px] mt-3 text-center text-primary h-14">
-            {`${seguro.nombre.split(" ").at(0)} de`}
-            <span className="block font-semibold text-xs capitalize">
-              {seguro.nombre.split(" ").slice(2).join(" ")}
-            </span>
-          </p>
+          <TextCustom
+            component={"p"}
+            className="text-[10px] mt-3 text-center text-primary h-14"
+            text={
+              <>
+                {`${seguro.nombre.split(" ").at(0)} de`}
+                <span className="block font-semibold text-xs capitalize">
+                  {seguro.nombre.split(" ").slice(2).join(" ")}
+                </span>
+              </>
+            }
+          />
         </div>
       ))}
     </div>

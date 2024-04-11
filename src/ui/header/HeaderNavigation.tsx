@@ -1,4 +1,5 @@
-import { SelectCustom } from "../share/atoms";
+import { poppins } from "@/theme";
+import { SelectCustom, TextCustom } from "../share/atoms";
 import LinkNavigation from "./LinkNavigation";
 
 const links = [
@@ -13,11 +14,12 @@ const links = [
     styleButton: true,
   },
 ];
+
 export default function HeaderNavigation() {
   return (
-    <nav className="flex justify-between items-center gap-4 text-[15px]">
+    <nav className={`flex justify-between items-center gap-4 text-[15px]`}>
       <div className="hidden lg:block">
-        <p className="cursor-pointer">Seguros</p>
+        <TextCustom component="p" text="Seguros" className="cursor-pointer" />
 
         {links.map((link) => (
           <LinkNavigation key={link.url} {...link} />
