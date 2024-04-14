@@ -1,4 +1,4 @@
-import HeaderNavigation from "@/ui/header/HeaderNavigation";
+import HeaderNavigation from "@/components/header/HeaderNavigation";
 import Image from "next/image";
 import Link from "next/link";
 

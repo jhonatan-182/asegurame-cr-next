@@ -1,18 +1,11 @@
-import ComoFunciona from "@/ui/home/ComoFunciona";
-import Seguros from "@/ui/home/Seguros";
 import Image from "next/image";
-import { Input } from "@/components/ui/input";
+import Seguros from "@/components/home/Seguros";
+import ComoFunciona from "@/components/home/ComoFunciona";
 
 export default function Home() {
   return (
     <>
       <header className="mt-24">
-        <Input
-          type="text"
-          placeholder="Buscar seguro"
-          className="text-green-400"
-        />
-
         <h1 className="text-primary_2 text-center font-semibold text-h1_movil_xs xs:text-h1_movil">
           Cotiza y Compara
           <span className="block text-primary">de la forma más sencilla</span>

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { TextCustom } from "../share/atoms";
 
 const comoFunciona = [
   {
@@ -65,17 +64,11 @@ export default function ComoFunciona() {
             className=" my-5"
           />
 
-          <TextCustom
-            text={`${item.id}. ${item.titulo}`}
-            component={"p"}
-            className="text-body_1 font-semibold text-primary text-center"
-          />
+          <p className="text-body_1 font-semibold text-primary text-center">{`${item.id}. ${item.titulo}`}</p>
 
-          <TextCustom
-            text={item.descripcion}
-            component={"p"}
-            className="text-body_movil font-normal text-texto mt-3 text-center "
-          />
+          <p className="text-body_movil font-normal text-texto mt-3 text-center ">
+            {item.descripcion}
+          </p>
         </div>
       ))}
     </div>

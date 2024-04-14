@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { HeaderMenu } from "@/ui/share/organisms";
 import "./globals.css";
 import { Poppins } from "next/font/google";
+import { HeaderMenu } from "@/components/share/organisms";
 
 export const metadata: Metadata = {
   title: "Asegurame | Cotiza y compra tu seguro en línea",
