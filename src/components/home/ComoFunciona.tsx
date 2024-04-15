@@ -49,7 +49,7 @@ const comoFunciona = [
 
 export default function ComoFunciona() {
   return (
-    <div className="mt-5 flex flex-col items-center space-y-10">
+    <>
       {comoFunciona.map((item) => (
         <div
           key={item.id}
@@ -71,6 +71,6 @@ export default function ComoFunciona() {
           </p>
         </div>
       ))}
-    </div>
+    </>
   );
 }

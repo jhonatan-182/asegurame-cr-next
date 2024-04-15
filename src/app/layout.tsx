@@ -40,7 +40,7 @@ export default function RootLayout({
     <html lang="es">
       <body className={`bg-white min-h-screen ${poppins.className}`}>
         <HeaderMenu />
-        <div className="w-[95%] md:w-[75%] mx-auto">{children}</div>
+        <div className="w-[95%] md:w-[85%] mx-auto">{children}</div>
       </body>
     </html>
   );
