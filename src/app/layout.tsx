@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Poppins } from "next/font/google";
-import { HeaderMenu } from "@/components/share/organisms";
+import { Footer, HeaderMenu } from "@/components/share/organisms";
 
 export const metadata: Metadata = {
   title: "Asegurame | Cotiza y compra tu seguro en línea",
@@ -40,7 +40,8 @@ export default function RootLayout({
     <html lang="es">
       <body className={`bg-white min-h-screen ${poppins.className}`}>
         <HeaderMenu />
-        <div className="w-[95%] md:w-[75%] mx-auto">{children}</div>
+        <div>{children}</div>
+        <Footer />
       </body>
     </html>
   );

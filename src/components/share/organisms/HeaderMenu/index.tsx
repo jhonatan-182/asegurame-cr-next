@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function HeaderMenu() {
   return (
-    <header className="shadow-general bg-white sticky top-0  ">
+    <header className="shadow-general bg-white sticky top-0 z-50">
       <div className="w-[85%] mx-auto flex justify-between items-center h-16">
         <Link href={"/"}>
           <Image
