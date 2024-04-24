@@ -83,7 +83,7 @@ export default function ConocenosPage() {
         </div>
       </section>
       <CardNosotros />
-      <section className="px-10 mt-10">
+      <section className="px-10 lg:mt-10">
         <div className="mx-auto">
           <div className="pt-16 pb-20 md:px-14 lg:px-0">
             <div className="grid grid-cols-1 lg:grid-cols-2  text-center lg:text-left m-auto">
