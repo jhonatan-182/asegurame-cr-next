@@ -1,0 +1,57 @@
+.item:nth-child(odd) { /* Select odd items and center them */
+  grid-column: 3 / span 2;
+  text-align: center;
+}
+
+.slick-list {
+  padding-bottom: 28px !important;
+  padding-top: 50px !important;
+}
+
+.slick-initialized .slick-slide {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.slick-initialized .slick-slide .partner-container {
+  box-shadow: 1px 1px 10px #D2E4EA;
+}
+
+.slick-prev {
+    display: none;
+    cursor: pointer;
+    left: -82px !important;
+    width: 36px !important;
+    height: 36px !important;
+} 
+
+.slick-next {
+  display: none;
+  cursor: pointer;
+  right: -82px !important;
+  width: 36px !important;
+  height: 36px !important;
+}
+
+.slick-prev:before {
+  content: '' !important;
+}
+
+.slick-next:before {
+  content: '' !important;
+}
+
+
+.slick-dots li button::before {
+  font-size: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #0099b7 !important;
+}
+
+
+.slick-dots li button:hover {
+  color: #0099b7 !important;
+}
+

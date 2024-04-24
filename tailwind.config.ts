@@ -48,7 +48,7 @@ const config = {
         borde_asegurame: "#DDDDDD",
       },
       boxShadow: {
-        general: "1px 1px 20px rgba(229, 235, 239, 1)",
+        general: "var(--sombra-primary)",
       },
       fontSize: {
         h1: "50px",

@@ -40,7 +40,7 @@ export default function RootLayout({
     <html lang="es">
       <body className={`bg-white min-h-screen ${poppins.className}`}>
         <HeaderMenu />
-        <div>{children}</div>
+        <div className="overflow-hidden">{children}</div>
         <Footer />
       </body>
     </html>
